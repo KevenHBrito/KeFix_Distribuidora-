@@ -1,0 +1,11 @@
+{
+  "runtime": "php@8.2",
+  "buildCommand": "echo 'Build complete'",
+  "env": {
+    "DB_HOST": "@db_host",
+    "DB_USER": "@db_user",
+    "DB_PASS": "@db_pass",
+    "DB_NAME": "@db_name",
+    "SITE_URL": "@site_url"
+  }
+}
