@@ -21,11 +21,6 @@ $total_carrinho = array_sum(array_column($_SESSION['carrinho'] ?? [], 'quantidad
 </head>
 <body>
 
-<!-- Barra de anúncio -->
-<div class="barra-anuncio">
-  🚀 FRETE GRÁTIS em compras acima de R$ 299 para todo o Brasil!
-</div>
-
 <!-- Header -->
 <header class="header">
   <div class="container header-inner">
