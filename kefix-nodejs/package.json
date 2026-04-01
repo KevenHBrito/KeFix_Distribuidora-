@@ -1,0 +1,14 @@
+{
+  "name": "kefix-nodejs",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["backend", "frontend"],
+  "scripts": {
+    "dev": "concurrently \"npm --workspace backend run dev\" \"npm --workspace frontend run dev\"",
+    "start": "npm --workspace backend run start",
+    "build": "npm --workspace frontend run build && npm --workspace backend run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
